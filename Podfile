@@ -14,10 +14,14 @@ target 'Parstagram' do
   target 'ParstagramTests' do
     inherit! :search_paths
     # Pods for testing
+    pod 'Parse'
+    pod 'AlamofireImage'
   end
 
   target 'ParstagramUITests' do
     # Pods for testing
+    pod 'Parse'
+    pod 'AlamofireImage'
   end
 
 end
