@@ -244,7 +244,7 @@
                         <viewLayoutGuide key="safeArea" id="ZNs-Se-dsk"/>
                     </view>
                     <navigationItem key="navigationItem" id="56H-eZ-I6y">
-                        <barButtonItem key="rightBarButtonItem" title="Item" image="insta_camera_btn" id="Mlc-F5-Rbq">
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="LaunchImage" id="Mlc-F5-Rbq">
                             <connections>
                                 <segue destination="ANH-iC-yTK" kind="presentation" id="VIe-wM-SoH"/>
                             </connections>
@@ -260,8 +260,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="LaunchImage" width="25" height="25"/>
         <image name="image_placeholder" width="375" height="375"/>
-        <image name="insta_camera_btn" width="25" height="25"/>
         <image name="instagram_logo" width="255" height="108"/>
     </resources>
 </document>
